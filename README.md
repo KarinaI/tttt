@@ -6,18 +6,20 @@
 - **win**
 - **mac**
 - **from sources**
- </br>Запуск ноды на linux:
-<code></br>
-sudo apt update </br>
-sudo apt -y install npm</br>
-sudo npm i -g n</br>
-sudo n 10.15.2</br>
-git clone https://github.com/SilentNotaryEcosystem/Cil-core.git</br>
-cd Cil-core</br>
-git checkout tags/latest</br>
-npm i</br>
-</code>
+```
+Запуск ноды на linux:
+<code>
+sudo apt update
+sudo apt -y install npm
+sudo npm i -g n
+sudo n 10.15.2
+git clone https://github.com/SilentNotaryEcosystem/Cil-core.git
+cd Cil-core
+git checkout tags/latest
+npm i
+```
 - **docker**
+
 3. Ключи для запуска ноды
 
 По умолчанию константы заданы в файле prod.conf.js (для production сети) и devel.conf.js (для development сети). 
