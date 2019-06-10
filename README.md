@@ -2,7 +2,7 @@
 - index.js - main file for node launch
 - savePrivateKey.js - file for private key saving (analogue of keystore)
 
-### 2. Node launch#
+### 2. Node launch
 - **win**
 - **mac**
 - **from sources**
