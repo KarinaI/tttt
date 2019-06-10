@@ -6,8 +6,8 @@
 - **win**
 - **mac**
 - **from sources**
- </br>Запуск ноды на linux:
-<code></br>
+ </br>Запуск ноды на linux:</br>
+<code>
 sudo apt update </br>
 sudo apt -y install npm</br>
 sudo npm i -g n</br>
