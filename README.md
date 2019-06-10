@@ -64,7 +64,7 @@ node index.js
 
 ### 5. Тестирование
 
-* run tests npm test <br> 
+* run tests ```npm test``` <br> 
 if you want tonns of debug info
-* run npm run-script testDebugNix for *nix
-* run npm run-script testDebugWin for Windows
+* run ```npm run-script testDebugNix``` for *nix
+* run ```npm run-script testDebugWin``` for Windows
