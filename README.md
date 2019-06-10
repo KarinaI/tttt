@@ -7,8 +7,7 @@
 - **mac**
 - **from sources**
 ```
-Запуск ноды на linux:
-<code>
+**Запуск ноды на linux:**
 sudo apt update
 sudo apt -y install npm
 sudo npm i -g n
