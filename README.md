@@ -52,8 +52,6 @@ You must set the environment variable NODE_ENV to Devel.
 
 Debug information output setting the variable DEBUG.
 
-Examples: peer:*,node:* 
-
 In components that support debugging at the beginning of the file there is a tag that is used for debug.
 
 This is how the test network node is launched with debugging under linux.
