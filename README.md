@@ -30,7 +30,7 @@ You can redefine them using keys:
 |---|---|
 |listenAddr|Defined address|
 |port|Defined port|
-|seedAddr|Seed address for node uploading|
+|seedAddr|Seed address for node bootstrap|
 |rpcUser|User name to call functions from node|
 |rpcPass|Password to call functions from node|
 |rpcPort|Port for call functions from node|
