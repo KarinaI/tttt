@@ -22,29 +22,32 @@ The default options are set in file [prod.conf.js](https://github.com/SilentNota
 
 |Parameter|Description|
 |---|---|
-listenAddr URL
-port Specified port
-seedAddr Seed address to run Node
-rpcUser Username used to call the functions from Node
-rpcPass Password used to call the functions from Node
-rpcPort Port used to call the functions from Node
-rpcAddress Address used to call the functions from Node
-genesisHash The genesis block's hash to set up a test environment
-conciliumDefContract The genesis block's contract to set up a test environment
-privateKey Private key file to run a witness node
-dbPath Directory for storing database files
-seed Function used for the running node to be a seed. (It will store and distribute the addresses of those who are connected to it (peers))
-strictAddresses Function used to close the connection with the duplicate IP address
-txIndex Function used to get transaction index by its hash
-watchAddress Function used to operate with local wallets. Used for adding wallet address to Node to track all incoming and outgoing transactions
-reIndexWallet Function used to operate with old wallets. Used to receive all transactions in the database by the specified wallet address
-walletSupport Boolean function used by Node to support the wallet
-listWallets Service function used to see the list of addresses that are added to the Node.
+|listenAddr|URL|
+|port|Specified port
+|seedAddr|Seed address to run Node|
+|rpcUser|Username used to call the functions from Node|
+|rpcPass|Password used to call the functions from Node|
+|rpcPort|Port used to call the functions from Node|
+|rpcAddress|Address used to call the functions from Node|
+|genesisHash|The genesis block's hash to set up a test environment|
+|conciliumDefContract|The genesis block's contract to set up a test environment|
+|privateKey|Private key file to run a witness node|
+|dbPath|Directory for storing database files|
+|seed|Function used for the running node to be a seed. (It will store and distribute the addresses of those who are connected to it (peers))|
+|strictAddresses|Function used to close the connection with the duplicate IP address|
+|txIndex|Function used to get transaction index by its hash|
+|watchAddress|Function used to operate with local wallets. Used for adding wallet address to Node to track all incoming and outgoing transactions|
+|reIndexWallet|Function used to operate with old wallets. Used to receive all transactions in the database by the specified wallet address|
+|walletSupport|Boolean function used by Node to support the wallet|
+|listWallets|Service function used to see the list of addresses that are added to the Node|
 
 ## Node install for development net
 Set the environment variable `NODE_ENV=Devel`.
+
 To display debug information, you must set a variable `DEBUG=peer:*,node:*`.
+
 In components that support debugging at the beginning of the file there is a tag that is used for debugging.
+
 Example (Linux):
 ```
 NODE_ENV=Devel DEBUG=peer:*,node:* node index.js
