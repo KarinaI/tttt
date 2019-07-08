@@ -1,3 +1,5 @@
+[Russian version of document] (Readme.rus)
+
 ## The installation process (Linux, macOS, Windows):
 
 #### 1. Git clone the project
