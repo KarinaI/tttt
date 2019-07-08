@@ -33,7 +33,7 @@ The default options are set in file [prod.conf.js](https://github.com/SilentNota
 |conciliumDefContract|The genesis block's contract to set up a test environment|
 |privateKey|Private key file to run a witness node|
 |dbPath|Directory for storing database files|
-|seed|Function used for the running node to be a seed. (It will store and distribute the addresses of those who are connected to it (peers))|
+|seed|Function used for the running node to be a seed (It will store and distribute the addresses of those who are connected to it (peers))|
 |strictAddresses|Function used to close the connection with the duplicate IP address|
 |txIndex|Function used to get transaction index by its hash|
 |watchAddress|Function used to operate with local wallets. Used for adding wallet address to Node to track all incoming and outgoing transactions|
